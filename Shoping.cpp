@@ -9,7 +9,7 @@ int main()
     setlocale(LC_ALL, "RU_ru");
     std::cout << "Прогулка по магазинам!\n";
     std::vector<float> prices = { 2.5, 4.25, 3.0, 10.0 };
-    std::vector<int> purchases = { 1, 1, 2, -1 };
+    std::vector<int> purchases = { 1, 1, 0, 3 };
     float summ = 0.0f;
     for (int count = 0; count < purchases.size(); ++count)
     {
